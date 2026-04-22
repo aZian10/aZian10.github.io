@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
 
@@ -14,14 +14,13 @@
         <a href="#sobre-mi">Sobre mí</a>
         <a href="#proyectos">Proyectos</a>
         <a href="#contacto">Contacto</a>
-        <a href="mascotas.html">Mascotas</a>
+        <a href="src/views/mascotas.html">Mascotas</a>
     </nav>
 </header>
 
 <section id="sobre-mi">
     <h2>Sobre mí</h2>
     <p id="texto">Hola, soy estudiante de desarrollo de software. Me gusta programar y aprender cosas nuevas.</p>
-    
     <button onclick="cambiarTexto()">Cambiar texto</button>
 </section>
 
@@ -42,7 +41,7 @@
         <button type="submit">Enviar</button>
     </form>
 
-    <button onclick="mostrarMensaje()">Mostrar mensaje</button>
+    <button onclick="toggleMensaje()">Mostrar mensaje</button>
     <p id="mensaje" class="oculto">Gracias por visitar mi portafolio 👋</p>
 </section>
 
