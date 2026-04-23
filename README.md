@@ -10,31 +10,37 @@ Se mejoró la versión de la semana 1 y 2 agregando estructura profesional, inte
 
 ## 🧩 Estructura del proyecto
 
-```bash
-public/
-│
-├── img/              # Imágenes (mascotas, recursos visuales)
-├── audio/
-├── videos/
-├── icons/
-├── docs/
-│
-src/
-│
-├── css/
-│   ├── base/         # Reset y variables
-│   ├── layout/       # Header y grid
-│   ├── components/   # Botones, tarjetas
-│   ├── pages/        # Estilos por página
-│   ├── style.css     # Archivo principal
-│
-├── views/
-│   ├── mascotas.html
-│
+.
 ├── index.html
-├── script.js
+├── mascotas.html
+├── public
+│   └── img
+│       ├── mascota1.jpg
+│       ├── mascota2.jfif
+│       ├── mascota3.jpg
+│       ├── mascota4.jpg
+│       ├── mascota5.jpg
+│       └── mascota6.jpg
 ├── README.md
-```
+├── script.js
+├── src
+│   ├── css
+│   │   ├── base
+│   │   │   ├── reset.css
+│   │   │   └── variables.css
+│   │   ├── components
+│   │   │   ├── buttons.css
+│   │   │   └── cards.css
+│   │   ├── layout
+│   │   │   ├── grid.css
+│   │   │   └── header.css
+│   │   ├── pages
+│   │   │   └── mascotas.css
+│   │   └── style.css
+│   └── views
+│       └── mascotas.html
+└── styles.css
+
 
 ---
 
