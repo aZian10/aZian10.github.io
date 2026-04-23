@@ -1,10 +1,10 @@
-# 📁 Portafolio Web - Semana 2
+# 📁 Portafolio Web - Semana 3
 
 ## 📌 Descripción
 
 Este proyecto es un portafolio web desarrollado con **HTML, CSS y JavaScript**, donde se aplican conceptos de diseño responsivo, organización de estilos y uso de layouts modernos como **Flexbox y Grid**.
 
-Se mejoró la versión de la semana 1 agregando estructura profesional, interactividad y mejor organización del código.
+Se mejoró la versión de la semana 1 y 2 agregando estructura profesional, interactividad y mejor organización del código.
 
 ---
 
